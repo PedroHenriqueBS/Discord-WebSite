@@ -61,8 +61,18 @@
 }
 
 @media screen and (max-width: 408px) {
+    .container-header {
+        align-items: start;
+        text-align: start;
+    }
+
+    .btn-header, .btn-black {
+        width: 100%;
+    }
+
     .btn-black {
         font-size: 0.5rem;
+        padding: 12px 30px;
     }
 
     .btn-white span{
@@ -106,8 +116,11 @@
     }
 
     .box1, .box2 {
-        width: 100%;
         padding: 0px 20px;
+    }
+
+    .text1, .text2 {
+        width: 200px;
     }
 
 }
