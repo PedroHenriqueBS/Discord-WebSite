@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+header {
+    width: 100%;
+    height: auto;
+    background-image: url("../assets/background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-header {
+    width: 50%;
+    max-width: 1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin: auto;
+    text-align: center;
+    padding: 95px 35px;
+}
+
+.container-header h1 {
+    font-family: 'Luckiest Guy', cursive;
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 400;
+    white-space: pre-line;
+}
+
+.btn-header {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-white {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    color: #23272A;
+    padding: 11px 20px;
+    border-radius: 28px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    position: relative;
+}
+
+.btn-black {
+    background: #23272A;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 28px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    position: relative;
+}
+
+.btn-white:hover, .btn-black:hover{
+    box-shadow: 2px 2px 5px rgb(27, 64, 187);
+}
+
+.btn-white:active, .btn-black:active{
+    top: 1px;
+}
+
+span.material-symbols-outlined {
+    width: auto;
+    padding-right: 10px;
+}
+
+/* MAIN (BOX) */
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* BOX 1 */
+
+.content1 {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.box1 {
+    display: flex;
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 350px;
+}
+
+.text1 h2{
+    color: #23272A;
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+.text1 span {
+    color: #23272A;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* BOX 2 */
+
+.content2 {
+    background: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.box2 {
+    display: flex;
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row-reverse wrap;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 350px;
+}
+
+.text2 h2{
+    color: #23272A;
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+.text2 span {
+    color: #23272A;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* BOX 3 */
+
+.content3 {
+    background: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    gap: 15px;
+}
+
+.content3 h1 {
+    color: #23272A;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2.5rem;
+    font-weight: 400;
+    white-space: pre-line;
+}
+
+.content3 span {
+    color: #23272A;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 800px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #23272A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 135px;
+    width: 100%;
+}
