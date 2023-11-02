@@ -8,6 +8,37 @@ header {
     background-repeat: no-repeat;
 }
 
+nav {
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul {
+    text-align: center;
+    margin: auto;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    border-radius: 15px;
+    background: #fff;
+    border-radius: 20px !important;
+    font-size: .8rem !important;
+    padding: 8px 15px !important;
+}
+
+.navbar-toggler {
+    background-color: #fff !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+    border: 1px solid gray;
+}
+
 .container-header {
     width: 50%;
     max-width: 1240px;
@@ -23,9 +54,10 @@ header {
 .container-header h1 {
     font-family: 'Luckiest Guy', cursive;
     color: #fff;
-    font-size: 3.5rem;
+    font-size: 3.8rem;
     font-weight: 400;
     white-space: pre-line;
+    letter-spacing: 2px;
 }
 
 .btn-header {
@@ -35,34 +67,22 @@ header {
     justify-content: center;
 }
 
-.btn-white {
+.btn-h {
     display: flex;
     align-items: center;
     background: #fff;
     color: #23272A;
-    padding: 11px 20px;
-    border-radius: 28px;
-    text-align: center;
-    font-weight: bold;
-    cursor: pointer;
-    border: none;
-    position: relative;
-}
-
-.btn-black {
-    background: #23272A;
-    color: #fff;
     padding: 15px 20px;
     border-radius: 28px;
     text-align: center;
     font-weight: bold;
     cursor: pointer;
     border: none;
-    position: relative;
+    transition: .5s;
 }
 
-.btn-white:hover, .btn-black:hover{
-    box-shadow: 2px 2px 5px rgb(27, 64, 187);
+.btn-h:hover, .btn:hover{
+    box-shadow: 5px 10px 15px rgba(27, 80, 187, 0.706);
 }
 
 .btn-white:active, .btn-black:active{
@@ -72,6 +92,7 @@ header {
 span.material-symbols-outlined {
     width: auto;
     padding-right: 10px;
+    font-size: 1rem;
 }
 
 /* MAIN (BOX) */

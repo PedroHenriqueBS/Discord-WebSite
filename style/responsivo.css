@@ -1,16 +1,14 @@
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1245px) {
     .container-header span {
         text-align: left;
     }
 
     .btn-header {
         flex-direction: column;
+        align-items: stretch;
     }
 
-    .btn-white {
-        width: 100%;
-        text-align: center;
-        align-items: center;
+    .btn-h {
         justify-content: center;
     }
 }
@@ -32,6 +30,10 @@
     .content3 img {
         width: 100%;
     }
+
+    .btn-h {
+        font-size: .8rem;
+    }
 }
 
 @media screen and (max-width: 657px) {
@@ -47,17 +49,6 @@
         font-size: 2rem;
     }
 
-    .container-header span {
-        font-size: 0.7rem;
-    }
-
-    .btn-black {
-        padding: 12px 60px;
-    }
-
-    span.material-symbols-outlined {
-        font-size: 1.2rem;
-    }
 }
 
 @media screen and (max-width: 408px) {
@@ -66,21 +57,13 @@
         text-align: start;
     }
 
-    .btn-header, .btn-black {
+    .btn-header {
         width: 100%;
     }
 
-    .btn-black {
-        font-size: 0.5rem;
-        padding: 12px 30px;
-    }
 
-    .btn-white span{
-        font-size: 0.5rem;
-    }
-
-    span.material-symbols-outlined {
-        font-size: 1rem;
+    .btn-h {
+        font-size: .6rem;
     }
 
     .img img{
